@@ -1,0 +1,275 @@
+.screen-loading.show {
+    background: #26282C !important;
+    color:#26282c !important;
+}
+.iframe-loading {
+    background: #26282C !important;
+}
+.portal-background {
+    background: #26282C !important;
+}
+.screen-toolbar {
+    display: none !important;
+}
+body {
+    background: #26282C !important;
+}
+.component-my-events-student .days {
+    background: white !important;
+}
+.component-class-list-student .course {
+    border-bottom: 1px solid #080808 !important;
+}
+.app-container {
+    background: #26282C !important;
+}
+.component-class-list-student .course-grade {
+    color: #fcfcfc !important;
+}
+.component-unread-messages-count {
+    transition: .5s;
+    color: white !important;
+}
+.component-class-list-student .course-links a {
+
+    color: #a6f8dd !important;
+}
+.component-class-list-student .assignments-link {
+
+    color: #ff8080 !important;
+}
+.component-unread-messages-count {
+    border: 1px solid #0000 !important;
+}
+.heading-text.font-size-small.font-weight-bold {
+    color: white !important;
+}
+.messages .message-from-label {
+    color: white !important;
+}
+.messages .message-from {
+    color: #ff895b !important;
+}
+.messages .message-category {
+    color: whitesmoke !important;
+}
+.messages .message-subject {
+    color: white !important;
+}
+.vx-Heading-4 {
+    color: white !important;
+}
+.messages .message-date-sent {
+    color: #62bfff !important;
+}
+.messages .message {
+    transition: 0.5s;
+    background: #26282C !important;
+}
+.messages .message:hover {
+    transition: 0.5s;
+    background: #000 !important;
+}
+.my-children-nav {
+    background: #26282c !important;
+}
+.vx-TabBar_Heading {
+    color: white !important;
+}
+.component-unread-messages-count:hover {
+    transition: .5s;
+    background: #000 !important;
+}
+.component-class-list-student .meeting-today.today {
+    background: #26282C !important;
+    color: #fff990 !important;
+}
+.course-teacher {
+    color:white !important;
+}
+h3.vx-Heading-3.student-overview-heading {
+    color:white !important;
+}
+a.course-description {
+    color:#0099FF !important;
+}
+.student-overview .course-links a {
+    color: rgb(166, 248, 221) !important;
+}
+small.vx-Subtitle {
+    color:white !important;
+}
+.student-overview .assignments-link {
+    color:rgb(255, 128, 128) !important;
+}
+.student-overview .course-list-grade-link {
+    color: white !important;
+}
+.vx-Tab_Item.active {
+    background: #626262 !important;
+    border-radius: 7px;
+    border-left: none;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.vx-Tab_Item {
+    transition: .5s;
+    border-left: none !important;
+    border-radius: 7px;
+    margin-right: 2px;
+}
+.vx-Tab_Item:hover {
+    transition: .5s;
+    background: #626262 !important;
+}
+.vx-PageTab.active {
+    background: #626262 !important;
+
+}
+.vx-PageTab:hover {
+    transition: .5s;
+    background: #626262 !important;
+}
+.vx-PageTab {
+    transition: .5s;
+    background: #26282C !important;
+    margin-right: 3px;
+}
+.vx-PageTab a {
+     color: #0099FF !important;
+}
+.schedule-item {
+    color: white !important;
+}
+.daily-schedule .schedule a {
+    color: white !important;
+}
+.daily-schedule .rotation-day-header {
+    color: darkgray
+}
+.vx-ButtonGroup .vx-Button {
+    background: #26282C !important;
+}
+.vx-Button.vx-Button--icon i {
+    color: white !important;
+}
+body.chromeless .container .content {
+    background: #26282C !important;
+}
+#page-enrollment-details .content {
+    background: #26282C !important;
+}
+.vx-PortalNav_ItemLink {
+    transition: .5s;
+    border-radius: 10px;
+    margin-right: 2px;
+}
+.vx-PortalNav_ItemLink:hover {
+    transition: .5s;
+    border-radius: 10px;
+    margin-right: 2px;
+}
+body.chromeless .container .content {
+    background: #26282C !important;
+}
+.fc .fc-toolbar>*>:first-child {
+    color: white !important;
+}
+.control-calendar .fc-day-grid-event .fc-time {
+    color: white;
+}
+.onoffswitch {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    height: 30px; padding: 0; line-height: 30px;
+    border: 2px solid #999999; border-radius: 30px;
+    background-color: #CCCCCC;
+    transition: background-color 0.3s ease-in;
+}
+.onoffswitch-label:before {
+    content: "";
+    display: block; width: 30px; margin: 0px;
+    background: #000000;
+    position: absolute; top: 0; bottom: 0;
+    right: 58px;
+    border: 2px solid #999999; border-radius: 30px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+    background-color: #2E8DEF;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+   border-color: #2E8DEF;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    right: 0px; 
+}
+.vx-Button.vx-Button--neutral {
+    transition: .5s;
+    background: #26282C !important;
+    color: white !important;
+    border: 1px solid #c8c8c8;
+
+}
+.vx-Button.vx-Button--neutral:hover {
+    transition: .5s;
+    background: #626262 !important;
+    color: #0994f0 !important;
+    border: 1px solid #0994f0;
+    
+}
+.detail-email .vx-RecordHeader {
+    background: #26282C !important;
+}
+.detail-email .vx-RecordTitle {
+    color: white !important;
+}
+.vx-RecordHeader_Type {
+    color: white !important;
+}
+.detail-email .small-data-field {
+    color: white !important;
+}
+.enrollment-detail {
+    background: #26282C !important;
+}
+.DirectoryTabBar {
+    background: #26282C !important;
+}
+.DirectoryCard {
+    background-color: #26282C !important;
+}
+.DirectoryCard_FieldLabel {
+    color: white !important;
+}
+.DirectoryCard_FieldValue {
+    color: white !important;
+}
+.DirectorySection_Title {
+    color: white !important;
+}
+.vx-Nav_HoverMenu {
+    transition: 0.5s;
+    background: #26282C !important;
+}
+.vx-Nav_HoverMenu:hover {
+    transition: 0.5s;
+    background: #26282C !important;
+}
+.vx-Nav_HoverMenu .vx-PortalNav_ItemLinkText {
+    color: white !important;
+}
+.vx-Nav_Button:hover {
+    transition: 0.5s;
+    background: #ffffff26 !important;
+}
+.vx-Nav_Button {
+    transition: 0.5s;
+    background: #ffffff00 !important;
+}

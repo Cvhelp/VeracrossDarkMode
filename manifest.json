@@ -1,0 +1,33 @@
+{
+    "name": "Veracross Darkmode",
+    "version": "5.0",
+    "description": "This extension changes the way Veracross looks. This extension is not affiliated with Veracross in any way.",
+    "permissions": ["declarativeContent", "storage", "tabs", "https://portals.veracross.com/lausanne/*", "activeTab"],
+    "background": {
+      "scripts": ["js/background.js"],
+      "persistent": false
+    },
+    "page_action": {
+      "default_icon": {
+        "16": "images/favicon.ico",
+        "32": "images/favicon.ico",
+        "48": "images/favicon.ico",
+        "128": "images/favicon.ico"
+      }
+    },
+    "icons": {
+      "16": "images/favicon.ico",
+      "32": "images/favicon.ico",
+      "48": "images/favicon.ico",
+      "128": "images/favicon.ico"
+    },
+    "content_scripts": [
+      {
+          "matches": ["https://portals.veracross.com/lausanne/student", "https://portals.veracross.com/lausanne/student/student/overview", "https://portals.veracross.com/lausanne/student/student/*/classes/*", "https://portals.veracross.com/lausanne/student/student/daily-schedule", "https://portals.veracross.com/lausanne/student/student/upcoming-assignments", "https://portals.veracross.com/lausanne/student/pages/home", "https://portals.veracross.com/lausanne/student/student/classes/*", "https://portals.veracross.com/lausanne/student/messages", "https://portals.veracross.com/lausanne/student/detail/email/*", "https://portals.veracross.com/lausanne/student/directory/students", "https://portals.veracross.com/lausanne/student/directory/households", "https://portals.veracross.com/lausanne/student/directory/faculty-staff"],
+          "js": ["js/content-script.js"],
+          "css": ["styles.css"],
+          "all_frames": true
+      }
+    ],
+    "manifest_version": 2
+  }
